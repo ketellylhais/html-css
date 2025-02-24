@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(255, 192, 203, 0.251);
+        }
+        div{
+            width: auto;
+        }
+        header{
+            background-color: rgba(214, 137, 154, 0.444);
+            padding: 10px;
+            border-style: ridge;
+            border-color: palevioletred;
+            border-width: 10px;
+            border-radius: 15px;
+            text-align: center;
+
+            border-image-source: url(hellokitty.png);
+            border-image-repeat: repeat;
+            border-image-slice: 26;
+        }
+        h1{
+            color: white;
+        }
+        nav{
+            background-color: palevioletred;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.546);
+        }
+        nav>a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            margin: 3px;
+        }
+        nav>a:hover{
+            color: rgba(255, 255, 255, 0.527);
+        }
+        h2{
+            text-indent: 80px;
+            color: palevioletred;
+            width: 500px;
+            background-color: rgba(250, 235, 215, 0.669);
+        }
+        .tabulacao{
+            text-indent: 110px;
+            
+        }
+        footer{
+            background-color: palevioletred;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding: 2px;
+            border:3px dashed white
+        }
+        aside{
+            margin: 0px 0px 25px 400px;
+            font-size: 10px;
+
+        }
+        .caixa{
+            text-align: justify;
+            width: 500px;
+        }
+        .margem{ margin-bottom: 0px;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Instagram</a>
+            <a href="#">Tik Tok</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2 class="tabulacao">Isso é uma seção</h2>
+            <p class="caixa">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, mollitia porro, molestiae consequatur magni consequuntur minus, placeat eos nemo nesciunt nihil excepturi asperiores odit vitae tempore laboriosam amet expedita esse.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Isto é um artigo de noticias</h2>
+                <p class="caixa margem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur cum quos rem ea maxime dolor ipsum consequatur esse vitae quod quas necessitatibus, eligendi voluptate commodi perferendis adipisci nobis, est laudantium.</p>
+                <aside>
+                    <em>Escrito por lorem</em>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Site desenvolvido por Ketelly Lhaís</p>
+    </footer>
+</body>
+</html>
