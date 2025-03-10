@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #container{
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+
+            position: relative;
+            height: 90vh;
+            padding: 15px;
+            background-color: lightcoral;
+
+        }
+        #conteudo{
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+
+            height: 200px;
+            width: 400px;
+            background-color: lightpink;
+
+        }
+
+        p{
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+            margin: 0px;
+            background-color: black;
+            color: white;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+            <p>Ola</p>
+        </article>
+    </section>
+</body>
+</html>
