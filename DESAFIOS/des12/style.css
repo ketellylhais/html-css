@@ -20,7 +20,7 @@
 html, body{
     font-family: var(--fonte1);
     min-height: 100vh;
-    background-color: rgba(169, 169, 169, 0.74);
+    background-color: rgba(255, 255, 255, 0.74);
 }
 
 
@@ -53,11 +53,18 @@ a:hover{
 
 
 section{
+   max-width: 550px;
+    margin: auto;
+
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte2);
+}
+section>p{
+    padding-bottom: 2em;
+    
 }
 section.normal{
     background-color: white;
@@ -66,13 +73,29 @@ section.normal{
 section.imagem{
     background-color: rgba(0, 0, 0, 0.548);
     color: white;
+    background-attachment: fixed;
+    
 }
 section.imagem > p{
     width: 400px;
     background-color: rgba(0, 0, 0, 0.669);
     padding: 5px;
+    text-shadow: 2px 1px 0px black;
 }
+section#img01{
+    background-image: url(imagens/paisagem-natural-og.webp);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
 
+}
+section#img02{
+    background-image: url(imagens/paisagem.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
 
 footer{
     background-color: black;
