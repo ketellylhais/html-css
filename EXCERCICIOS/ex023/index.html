@@ -12,21 +12,22 @@
 
         table{
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
         }
 
-        tr.linha{
-            background-color: rgba(128, 128, 128, 0.703);
-        }
 
         td{
             border: 1px solid black;
             padding: 4px;
+            text-align: center;
+
         }
 
-        td.dado{
-            background-color: lightpink;
+        .numero{
+            text-align: right;
         }
+
     </style>
 </head>
 <body>
@@ -39,20 +40,20 @@
      
     -->
     <table>
-        <tr class="linha"><!--Primeira tinha-->
+        <tr><!--Primeira tinha-->
             <td> A1 </td>
             <td> B1 </td>
             <td> C1 </td>
         </tr>
         <tr>
-            <td class="dado"> A2 </td>
+            <td> A2 </td>
             <td> B2 </td>
-            <td> C3 </td>
+            <td class="numero"> C3 </td>
         </tr>
         <tr>
             <td> A3 </td>
             <td> B3 </td>
-            <td> C3 </td>
+            <td class="numero"> C3 </td>
         </tr> 
         <tr>
             <td> A4 </td>
